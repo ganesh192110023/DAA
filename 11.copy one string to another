@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[20],s1[20];
+	printf("enter the string=");
+	gets(s);
+	strcpy(s1,s);
+	printf("copied string is %s",s);
+}
