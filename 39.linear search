@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	int key,i,a[25],n,found=0;
+	printf("enter the no of elements in a array=");
+	scanf("%d",&n);
+	printf("enter elements in an array\n");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("enter the search elemnt=");
+	scanf("%d",&key);
+	for(i=0;i<n;i++)
+	{
+		if(a[i]==key){
+		
+		printf("element found at location is %d",i);
+		found=1;
+		break;
+		}
+		
+	}
+	if(!found)
+	printf("not found");
+	}
